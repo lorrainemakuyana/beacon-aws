@@ -13,7 +13,7 @@ See `README.md` for the full architecture, Firebase→AWS mapping, and build ord
 - `mobile/` — React Native / Expo app. Currently Firebase-backed (`mobile/firebase/`), being migrated to AppSync.
 - `web/` — Next.js web dashboard. Currently Firebase-backed (`web/src/firebase/`), being migrated to AppSync.
 - `infra/` — CDK infrastructure (to be added): Cognito, DynamoDB, AppSync, S3, Lambda.
-- `.kiro/specs/` — requirements, design, and task specs.
+- `docs/` — **all repo documentation lives here** (design notes, data models, specs). Put new docs in `docs/`, not scattered across the tree.
 
 ## Working principles
 
